@@ -55,3 +55,20 @@
 // let b2 = prompt("Second number?");
 
 // alert(a1 + b2);
+
+let text = "dfasdfsadfdsfas";
+let length = text.length;
+let charat2 = text.charAt();
+let charat3 = text.charCodeAt(1);
+let at1 = text.at(2); /*or*/ let arg = text[2]; 
+
+console.log(length + " " +  charat2 + " " + charat3);
+console.log(at1 + " " + arg)
+
+let text1 = "Apple, Banana, Kiwi";
+let part = text1.slice(-12);
+let part1 = text1.slice(-12, -6); /*substring <0 count as 0, substr seconf par is the lenght of extracted part*/ 
+let part2 = text1.substr(7, 6);
+
+
+console.log(part + " / " + part1 + " / " + part2);
